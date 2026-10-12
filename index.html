@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>EnglishMitra AI Pro</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="brand">🌸 EnglishMitra <b>AI</b></div><span class="tag">AI English Teacher</span></header>
+<main>
+<section class="hero"><div><small>PERSONAL ENGLISH COACH</small><h1>Speak English with confidence.</h1><p>Have a natural conversation with AI, get gentle corrections, and practice real-life English.</p></div><div class="heroIcon">🎧</div></section>
+<div class="layout">
+<section class="card chatCard">
+<div class="chatHead"><div><h2>💬 AI Conversation</h2><p>Ask anything or practice everyday English.</p></div><button id="clear" class="ghost">New chat</button></div>
+<div id="chat" class="chat"><div class="msg ai"><span class="avatar">🤖</span><div><b>EnglishMitra</b><p>Hello! 👋 I am your English teacher. Tell me about your day.</p></div></div></div>
+<div class="composer">
+<button id="mic" class="mic" title="Speak">🎙️</button>
+<input id="input" placeholder="Type or speak in English..." autocomplete="off">
+<button id="send" class="send">Send</button>
+</div>
+<div class="voiceLine"><span id="micStatus">Voice ready</span><button id="repeat" class="link">🔊 Repeat last reply</button></div>
+</section>
+<aside class="side">
+<div class="card coach">
+<h3>🎯 Coach mode</h3>
+<select id="mode">
+<option value="conversation">Natural conversation</option>
+<option value="teacher">Correct my English</option>
+<option value="roleplay">Role-play practice</option>
+<option value="beginner">Very simple English</option>
+</select>
+<label>Situation</label>
+<select id="situation">
+<option>General</option><option>Shopping</option><option>Doctor</option><option>Bank</option><option>Travel</option><option>Talking to family</option><option>Job interview</option>
+</select>
+<button id="start" class="primary full">▶ Start practice</button>
+</div>
+<div class="card tips"><h3>💡 Try asking</h3>
+<button class="suggest">Correct this: I am go market.</button>
+<button class="suggest">Teach me 5 useful English sentences.</button>
+<button class="suggest">Let's practice at a shop.</button>
+<button class="suggest">Talk to me like a friend.</button>
+</div>
+</aside>
+</div>
+</main>
+<footer>EnglishMitra AI • API keys stay on your server</footer>
+<script src="script.js"></script>
+</body></html>
